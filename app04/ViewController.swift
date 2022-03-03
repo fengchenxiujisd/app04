@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     var name:String?
+    lazy var age:Int? = {
+        return 21
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
